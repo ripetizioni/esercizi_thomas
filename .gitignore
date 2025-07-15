@@ -1,0 +1,11 @@
+.vscode/
+
+# Executables
+*.exe
+*.out
+*.app
+*.[oa]
+# Executables without extension (Unix/Linux)
+*
+!*.*
+!*/
