@@ -1,0 +1,51 @@
+🧠 ESERCIZIO – GESTIONE DI UNA GARA A PUNTI
+✅ FASE 1 – Versione base senza funzioni
+Scrivi un programma in C++ che gestisce una gara con 5 partecipanti. Il programma deve:
+
+Creare un array di 5 interi che rappresentano i punti dei 5 partecipanti, inizializzati a 0.
+
+Simulare 10 manche di gara. In ogni manche:
+
+Viene generato casualmente un vincitore tra i 5 (indice da 0 a 4).
+
+Il vincitore ottiene 3 punti.
+
+Al termine della gara, stampa:
+
+I punti di ciascun partecipante.
+
+Il numero del partecipante vincitore (quello con più punti).
+
+In caso di parità, stampa "Parità!" e mostra tutti i partecipanti a pari merito.
+
+👨‍💻 Suggerimenti didattici (fase 1):
+Usare rand() e srand().
+
+For annidati (se si vuole visualizzare manche per manche).
+
+Uso di condizioni per identificare il massimo e gestire la parità.
+
+
+---------------------------------------------------------------------------------------
+
+✅ FASE 2 – Versione con funzioni
+Riscrivi il programma suddividendolo in funzioni:
+
+✳️ Funzioni richieste:
+void inizializzaPunti(int punti[], int dim);
+Inizializza l'array a 0.
+
+void simulaGara(int punti[], int dim, int manche);
+Simula la gara lanciando casualmente un vincitore per ogni manche.
+
+void stampaPunti(int punti[], int dim);
+Stampa i punteggi di ciascun partecipante.
+
+void trovaVincitori(int punti[], int dim);
+Trova il/ i partecipante/i con più punti e stampa il vincitore o i vincitori.
+
+🧠 Bonus – Espansioni possibili
+Rendere il numero di partecipanti e manche inseribili da tastiera.
+Aggiungere un array di string per i nomi.
+Usare struct Partecipante con nome e punteggio.
+
