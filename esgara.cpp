@@ -81,4 +81,5 @@ int main(){
     parita(punti, Npartecipanti,vincitore);
 
     return 0;
-}
+}  
+  
