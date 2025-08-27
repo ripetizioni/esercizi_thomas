@@ -15,7 +15,7 @@ struct Tempo {
 struct Posto {
     int id;
     string targa;
-    string tipo;     // "normale" o "grande"
+    string tipo;     
     Tempo ingresso;
     bool occupato;
 };
